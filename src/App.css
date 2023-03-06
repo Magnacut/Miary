@@ -1,0 +1,340 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height:40vmin;
+  pointer-events: none;
+  color:black;
+  position: relative;
+}
+div a{
+  display:block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.MakeCenter{
+  text-align: center;
+}
+
+.article{
+  border:2px solid black;
+  margin: 1px;
+  height:auto;
+  width:auto;
+  background-color:antiquewhite
+}
+
+
+.FullScreen{
+  background-color: #ffffff;
+  height:auto;
+}
+
+.Header{
+  text-align: center;
+  width:auto;
+  height:32px;
+  background-color: #ffffff;
+}
+
+.Bottom{
+  display : flex;
+  justify-content : center;
+  align-items : center; 
+  width: auto;
+  height:40px;
+  position: relative;
+  top:70px;
+  border:1px solid  #f0f0f0;
+}
+.BottomCon{
+  color: #999;
+  text-align: center;
+  position: relative;
+  margin-top:10px ;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 5px;
+  float: left;
+  height: 30px;
+  width: auto;
+  line-height: 28px;
+} 
+.Bottom1 .BottomCon:hover{
+color: black;
+ background-color: #f0f0f0;
+}
+.Bottom2 .BottomCon{
+  color: #999;
+  text-align: center;
+  position: relative;
+  margin-top:10px ;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 5px;
+  float: left;
+  height: 30px;
+  width: auto;
+  line-height: 28px;
+}
+.Icon{
+  width:30px;
+  height:30px;
+  display : flex;
+  justify-content : center;
+  align-items : center;      /*왼쪽 세 개를 사용하면 세로정렬됨*/
+  text-decoration: none;
+  margin-left:3px;
+  margin-right:3px;
+}
+.Icon img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+.Insta{
+  float: left;
+  
+}
+.Blog{
+  float: right;
+}
+.HomeF{
+float: left;
+position:absolute;
+left: 50%;
+}
+.Home{
+  font-size: larger;
+  font-weight: 900;
+  width:100px;
+  height:30px;
+  line-height: 150%;
+  position: relative;
+  left: -50%;
+}
+.Home:hover{
+  background-color:#f0f0f0;
+}
+
+
+
+.PhotosF{
+  background-color: #f3f3f3;
+  text-align: center;
+  width:auto;
+  height:800px;
+  display : flex;
+  align-items : center;
+  justify-content: center;
+  
+ 
+}
+.Photos{
+  background-color: #f5f9ff;
+  position: relative;
+  text-align: center;
+  width:500px;
+  height:600px;
+  padding:50px;
+  border:1px solid #f0f0f0;
+  display : flex;
+  align-items : center;
+  justify-content: center;
+  box-shadow: rgba(0,0,0,0.2) 8px 8px inset;
+  
+}
+.Photo{
+  display : flex;
+  justify-content: center;
+  align-items : center;
+  position: relative;
+  width:130px;
+  height:150px;
+  border: 10px ridge #8e8d8d;
+  margin:3px;
+  cursor: pointer;
+  background-color: #f3f3f3;
+  opacity: 1;
+  transition-property:transform, opacity, right, top, height, width;
+  transition-duration: 2s, 1s, 1s, 1s, 1s, 1s;
+}
+.Photo:hover{
+  width:260px;
+  height:300px;
+  border: 10px ridge #8e8d8d;
+ 
+}
+
+.Photo1{
+  bottom:15px;
+  right:4px;
+  box-shadow: rgba(0,0,0,0.7) 5px 5px;
+  transform: rotate(1.4deg);
+}
+.Photo2{
+  box-shadow: rgba(0,0,0,0.5) 3px 0 ;
+  transform: rotate(0.8deg);
+}
+.Photo3{
+  bottom:8px;
+  right:3px;
+  box-shadow: rgba(0,0,0,0.7) 5px 5px;
+  transform: rotate(-1.2deg);
+}
+.Photo4{
+  right:5px;
+  top:4px;
+  box-shadow: rgba(0,0,0,0.5) 5px 3px;
+  transform: rotate(0.8deg);
+}
+.Photo5{
+  box-shadow: rgba(0,0,0,0.5) 0 2px ;
+  transform: rotate(-1deg);
+}
+.Photo6{
+  top:5px;
+  box-shadow: rgba(0,0,0,0.7) 3px 3px;
+}
+.Photo7{
+  right:3px;
+  bottom:7px;
+  box-shadow: rgba(0,0,0,0.5) 5px 3px;
+  transform: rotate(-2.5deg);
+}
+.Photo8{
+  right:5px;
+  top:6px;
+  box-shadow: rgba(0,0,0,0.7) 5px 5px;
+  transform: rotate(1deg);
+}
+.Photo9{
+  top:18px;
+  box-shadow: rgba(0,0,0,0.5) 3px 3px;
+  transform: rotate(1deg);
+}
+.Pic{
+  position:absolute;
+  display : flex;
+  justify-content: center;
+  width:90%;
+  height:90%;
+  background-color: yellow;
+  z-index: 100;
+  
+}
+
+.ArtPho{
+  width: 300px;
+  height: auto;
+}
+.Circles1{
+  position: absolute;
+  width:auto;
+  left:0%;
+  top:5%;
+ 
+}
+.Circles2{
+  position: absolute;
+  width:auto;
+  left: 5%;
+  top:20%;
+ 
+}
+.Circles3{
+  position: absolute;
+  width:auto;
+  left:0%;
+  top:35%;
+ 
+}
+.Circles4{
+  position: absolute;
+  width:auto;
+  left:5%;
+  top:50%;
+ 
+}
+.Circles5{
+  position: absolute;
+  width:auto;
+  left:0%;
+  top:65%;
+ 
+}
+.Circles6{
+  position: absolute;
+  width:auto;
+  left:5%;
+  top:80%;
+  
+  
+}
+.Circle{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  opacity: 1;
+}
+.Contents{
+  position: relative;
+  top:0px;
+  width:auto;
+  height: 800px;
+}
+.Content{
+  width: auto;
+  height: 800px;
+  background-color: beige;
+  
+}
+.Crup{
+  position: relative;
+  bottom:5%;
+  left:2%;
+}
+.Create{
+  display: none;
+  
+}
+.CC{
+  text-align: center;
+  font-size: 20px;
+  padding-top:1px;
+  height:800px;
+  background-color: rgb(163, 209, 138);
+}
+#input{
+  width: 500px;
+  height:25px;
+}
+#text{
+  width: 500px;
+  height: 400px;
+}
+#left{
+  margin:90px;
+}
+.Write{
+  z-index: 1;
+  position: fixed;
+  right:2%;
+  bottom:8%;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+}
+
+
+
+
+.pic{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
